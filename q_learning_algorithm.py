@@ -5,7 +5,7 @@ import numpy as np
 class QLearningMAC:
     def __init__(self, L_min=4, L_max=32, d=1, α=0.1, γ=0.9, ε=1.0, ε_min=0.05, ε_decay=0.995):
         self.L_min = L_min
-        self.L_max = L_max
+        self.L_max = L_max #a
         self.d = d
         self.α = α  # Learning rate
         self.γ = γ  # Discount factor
